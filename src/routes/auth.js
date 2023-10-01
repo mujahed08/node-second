@@ -12,7 +12,7 @@ router.post('/register', (req, res) => {
 
     res.status(200).json({
         success: true,
-        message: 'Registration successful',
+        message: 'Registration successfull!',
     });
 });
 
